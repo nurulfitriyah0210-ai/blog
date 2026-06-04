@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Mahasiswa - Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      min-height: 100vh;
+      padding: 20px 15px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #144A6B;
+      color: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(20,74,107,0.0);
+    }
+
+    .header {
+      padding: 45px 35px 35px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border: 6px solid rgba(255,255,255,0.25);
+      margin-bottom: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    }
+
+    .name {
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .title {
+      font-size: 1.4rem;
+      font-weight: 400;
+      opacity: 0.9;
+      margin-bottom: 12px;
+    }
+
+    .info-line {
+      font-size: 1.1rem;
+      margin: 8px 0;
+      opacity: 0.95;
+    }
+
+    .content {
+      background: white;
+      color: #222;
+      padding: 40px 35px;
+      border-radius: 0 0 16px 16px;
+    }
+
+    .section-title {
+      font-size: 1.7rem;
+      color: #000000;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid #0a3d62;
+      display: inline-block;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 0 5px;
+      }
+      .header {
+        padding: 30px 20px 25px;
+      }
+      .name {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <img 
+        src="logo.png" 
+        alt="Foto Profil" 
+        class="profile-pic"
+      >
+      <div class="name">M.ALI WAFA</div>
+      <div class="title">Mahasiswa Teknik Informatika</div>
+
+      <div class="info-line"><strong>NIM</strong> : 250411100087</div>
+      <div class="info-line"><strong>KELAS</strong> : A - Pagi</div>
+    </div>
+
+    <div class="content">
+      <h2 class="section-title">Pemesanan Hotel</h2>
+
+    <div class="table">
+    <h2 align="center"style="margin-top:40px;">(Pencarian & Pemesanan)</h2>
+
+    <table border="1" width="100%" cellpadding="20">
+        <tr>
+            <td align="left">Pencarian Kamar</td>
+            <td align="left">Interface Pencarian Kamar digunakan oleh pengguna untuk mencari kamar hotel sesuai dengan kebutuhan tertentu. 
+          Pada halaman ini pengguna dapat memasukkan beberapa informasi seperti tanggal menginap, jumlah orang yang akan menginap, serta tipe kamar yang diinginkan. 
+          Setelah itu sistem akan menampilkan hasil pencarian berupa daftar kamar yang sesuai dengan kriteria tersebut.</td>
+        </tr>
+        <tr>
+            <td align="left">Filter Kamar</td>
+            <td align="left">Interface Filter Kamar berfungsi untuk membantu pengguna mempersempit pilihan kamar dari hasil pencarian yang ditampilkan. 
+          Pengguna dapat menyaring kamar berdasarkan beberapa kategori seperti kisaran harga, fasilitas yang tersedia, jenis tempat tidur, atau rating kamar. 
+          Dengan adanya fitur ini, pengguna dapat menemukan kamar yang paling sesuai dengan kebutuhannya dengan lebih cepat.</td>
+        </tr>
+        <tr>
+            <td align="left">Pilih Tanggal Check-in</td>
+            <td align="left"> Interface ini digunakan oleh pengguna untuk menentukan tanggal kedatangan di hotel. 
+          Umumnya halaman ini menampilkan kalender sehingga pengguna dapat memilih tanggal check-in dengan lebih mudah dan jelas.</td>
+        </tr>
+        <tr>
+            <td align="left">Pilih Tanggal Check-out</td>
+            <td>Interface Pilih Tanggal Check-out berfungsi untuk menentukan tanggal keberangkatan pengguna dari hotel. 
+          Sistem biasanya akan menyesuaikan tanggal ini dengan tanggal check-in agar tidak terjadi kesalahan saat melakukan pemesanan kamar.</td>
+        </tr>
+        <tr>
+            <td align="left">Pilih Jenis Kamar</td>
+            <td align="left"> Interface ini menampilkan berbagai tipe kamar yang disediakan oleh hotel, misalnya kamar standar, deluxe, ataupun suite. 
+          Setiap tipe kamar biasanya dilengkapi dengan informasi seperti foto kamar, harga per malam, kapasitas tamu, serta fasilitas yang tersedia.</td>
+        </tr>
+        <tr>
+            <td align="left">Form Pemesanan</td>
+            <td align="left"> Interface Form Pemesanan digunakan untuk mengisi data yang diperlukan dalam proses reservasi kamar. 
+          Pada halaman ini pengguna diminta untuk mengisi beberapa informasi seperti nama pemesan, alamat email, nomor telepon, serta catatan tambahan apabila ada permintaan khusus.</td>
+        </tr>
+        <tr>
+            <td align="left">Ringkasan Pesanan</td>
+            <td align="left">Interface Ringkasan Pesanan menampilkan detail pemesanan yang telah dipilih oleh pengguna sebelum melanjutkan ke tahap pembayaran. 
+          Informasi yang ditampilkan biasanya mencakup jenis kamar, tanggal menginap, jumlah malam menginap, serta total biaya yang harus dibayarkan.</td>
+        </tr>
+        <tr>
+            <td align="left">Pilih Metode Pembayaran</td>
+            <td align="left">Interface ini digunakan untuk menentukan metode pembayaran yang akan digunakan oleh pengguna. 
+          Sistem biasanya menyediakan beberapa pilihan seperti transfer bank, kartu kredit, dompet digital (e-wallet), atau pembayaran langsung di hotel sesuai dengan kebijakan yang berlaku.</td>
+        </tr>
+        <tr>
+            <td align="left">Konfirmasi Pemesanan</td>
+            <td align="left">Interface Konfirmasi Pemesanan menampilkan pemberitahuan bahwa proses pemesanan kamar telah berhasil dilakukan. 
+          Pada halaman ini biasanya juga ditampilkan kode booking yang nantinya digunakan oleh pengguna saat melakukan check-in di hotel.</td>
+        </tr>
+        <tr>
+            <td align="left">Pembatalan Booking</td>
+            <td align="left"> Interface Pembatalan Booking disediakan bagi pengguna yang ingin membatalkan reservasi kamar yang telah dibuat sebelumnya. 
+          Sistem akan menampilkan detail pemesanan serta informasi mengenai kebijakan pembatalan sebelum pengguna melakukan konfirmasi pembatalan.</td>
+        </tr>
+    </table>
+    </div>
+
+
+    <div class="footer">
+      2026 — Dibuat untuk Memenuhi tugas (Desain Pemograman Web)
+    </div>
+  </div>
+
+</body>
+</html>
